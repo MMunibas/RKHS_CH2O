@@ -9,7 +9,7 @@ Potential energy surfaces for formaldehyde using ab initio energies and gradient
 
 A program file (training.f90) is given and it can be compiled as
 
-`gfortran training.f90 -llapack
+`gfortran training.f90 -llapack`
 
 Run as ./a.out and provide training.dat file with training geometries, energies and gradients. It will write the coefficients in coeff.dat file.
 
@@ -17,6 +17,6 @@ Run as ./a.out and provide training.dat file with training geometries, energies 
 
 A program file (training.f90) is given and it can be compiled as
 
-`gfortran rkhs_pes.f90
+`gfortran rkhs_pes.f90`
 
 Run as ./a.out and provide the geometry of CH2O for which the energy and gradiets to be computed in inp.xyz file. Keep the coeff.dat file in the same directory.
